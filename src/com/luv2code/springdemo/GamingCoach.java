@@ -25,6 +25,14 @@ public class GamingCoach implements Coach {
 		return randomFortuneService.getFortune();
 	}
 	
+	public void doMyStartupStuff() {
+		System.out.println("One gaming coach coming right up!");
+	}
+	
+	public void doMyCleanupStuff() {
+		System.out.println("Terminating gaming coach, sorry!");
+	}
+	
 	
 
 }
